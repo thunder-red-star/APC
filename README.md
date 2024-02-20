@@ -21,7 +21,7 @@ drive them away or make them regret their actions.
 1. Download the latest release from Spigot (link coming soon) or compile the plugin yourself.
 2. Place the plugin in your server's `plugins` folder.
 3. Start your server and configure the plugin to your liking. Make sure to reload the plugin if you've changed anything!
-4. Enjoy a server free from the clutches of annoying players!
+4. Enjoy a server free from the clutches of annoying randos!
 
 ## License
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
