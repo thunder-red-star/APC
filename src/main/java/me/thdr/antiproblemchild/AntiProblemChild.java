@@ -6,12 +6,11 @@ public final class AntiProblemChild extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        // WIP
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        // WIP :sob:
     }
 }

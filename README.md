@@ -1,7 +1,12 @@
 # APC (soon™️)
+*Disclaimer: I don't support pay-to-win, but I absolutely hate the people who dupe/lag/destroy servers because they're 
+supposedly pay-to-win. You have no legal nor moral right to destroy someone's server just because they have a pay-to-win 
+system, and a lot of the time you end up destroying servers that aren't even part of the problem. If you don't like it,
+then don't play on it. Simple as that.*
+
 Are you a server owner looking for *some* respite from randoms who claim to "support the Anti-P2W" movement, but in reality
 are just looking to destroy your server (pay-to-win or not) for clout? Look no further! APC is a server-side plugin that allows you to block
-known alts of annoying players like zman1064 and eTurbo, or allow you to do basically anything to them in order to either
+known alts of annoying players like **zman1064** and **eTurbo**, or allow you to do basically anything to them in order to either
 drive them away or make them regret their actions.
 
 ## Features
