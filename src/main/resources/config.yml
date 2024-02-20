@@ -1,0 +1,40 @@
+# List of SHA256 hashes of alt names of problem children
+blocklist-url: https://apc.tulpcraft.me/apc-hashes
+
+# What to do when a problem child joins
+
+# Possible actions:
+# - DISCONNECT (kick the player, you can specify a reason)
+# - NOTIFY (send a message to anyone with a permission node you specify in permission)
+# - CONSOLE_COMMAND (run a command as console, or multiple)
+# - PLAYER_COMMAND (run a command as the player, or multiple)
+# - SAY (send a message as the user to everyone)
+# - TROLL_RANDOM_ROTATIONS (rotate the player's head randomly every so often)
+# - TROLL_RANDOM_INVENTORY (randomly change the player's inventory items every so often)
+# - TROLL_CLOSE_INVENTORY (randomly close the player's inventory every so often)
+# - PACKET_DROP (drop packets from the player, specify a percentage if you want)
+# - PACKET_DELAY (delay packets from the player, specify a delay in milliseconds)
+# - PACKET_SPAM (crash their clients with fake entities, or particles, or whatever)
+
+# Possible triggers:
+# - JOIN (when the player joins)
+# - PERIODIC (every so often, specify a period in seconds)
+# - CHAT (when the player sends a chat message)
+punishments:
+  # When any problem child whether from the public blocklist or the server's blocklist joins
+  global:
+    - action: KICK
+      on: JOIN
+      reason: "You are a known problem child, please go away."
+  perplayer:
+    # Specific punishment for known alts of eTurbo
+    eTurbo:
+      - action: SAY
+        on: PERIODIC
+        reason: "I am very dumb and I literally have no friends."
+        period: 60  # 60 seconds
+    # Specific punishment for known alts of zman1064
+    zman1064:
+      - action: CONSOLE_COMMAND
+        on: CHAT
+        command: "ban {player} Please disappear buddy."

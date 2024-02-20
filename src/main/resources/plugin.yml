@@ -1,0 +1,13 @@
+name: AntiProblemChild
+version: '${project.version}'
+main: me.thdr.antiproblemchild.AntiProblemChild
+api-version: '1.20'
+description: Plugin to prevent known alts of dupers and laggers from joining the server, or make their lives impossible.
+authors:
+  - ThunderRedStar
+commands:
+    apc:
+        description: Main command for AntiProblemChild
+        usage: /apc <reload|add|remove|list|info>
+        permission: antiproblemchild.admin
+        aliases: [antiproblemchild, apc]
